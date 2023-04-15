@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #040404;
+    color: #328f01;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  section h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #ddfe04;
+  }
+  
+  section p {
+    font-size: 1.5rem;
+    text-align: right;
+    color: #328f01;
+  }
+  
+  #picture img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  footer {
+    background-color: #050505;
+    color: #328f01;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Add your own styles for the parallax effect */
+  .parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #introduction {
+    background-image: url('introduction.jpg');
+  }
+  
+  #picture {
+    background-image: url('picture.jpg');
+  }
+  
+  #resume {
+    background-image: url('resume.jpg');
+  }
+  
+  #skills {
+    background-image: url('skills.jpg');
+  }
+  
+  #works {
+    background-image: url('works.jpg');
+  }
+  
+  #contact {
+    background-image: url('contact.jpg');
+  }
+  
